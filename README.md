@@ -580,7 +580,7 @@ spec:
 * Run following command to apply Triggertemplate.
 
 ```bash
-$ oc create -f https://raw.githubusercontent.com/openshift/pipelines-tutorial/master/03_triggers/02_template.yaml
+$ oc create -f https://raw.githubusercontent.com/bnovakrh/pipelines-tutorial/master/03_triggers/02_template.yaml
 ```
 
 
@@ -637,7 +637,7 @@ spec:
 * Run following command to create Triggertemplate.
 
 ```bash
-$ oc create -f https://raw.githubusercontent.com/openshift/pipelines-tutorial/master/03_triggers/03_event_listener.yaml
+$ oc create -f https://raw.githubusercontent.com/bnovakrh/pipelines-tutorial/master/03_triggers/03_event_listener.yaml
 ```
 
 >***Note***: EventListener will setup a Service. We need to expose that Service as an OpenShift Route to make it publicly accessible.
