@@ -609,7 +609,7 @@ The exact paths (keys) of parameter we need can be found by examining the event 
 Run following command to apply Triggertemplate.
 
 ```bash
-$ oc create -f https://raw.githubusercontent.com/openshift/pipelines-tutorial/master/03_triggers/01_binding.yaml
+$ oc create -f https://raw.githubusercontent.com/bnovakrh/pipelines-tutorial/master/03_triggers/01_binding.yaml
 ```
 
 #### Event Listener
